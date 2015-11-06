@@ -19,10 +19,10 @@
     </security-constraint>
     <login-config>
         <auth-method>BASIC</auth-method>
-        <realm-name>myrealm</realm-name>
+        <realm-name>REST</realm-name>
     </login-config>
     <security-role>
         <description/>
-        <role-name>viewer</role-name>
+        <role-name>REST</role-name>
     </security-role>
 </web-app>
