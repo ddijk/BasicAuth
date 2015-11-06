@@ -14,12 +14,12 @@
         </web-resource-collection>
         <auth-constraint>
             <description>My auth constraint</description>
-            <role-name>viewer</role-name>
+            <role-name>REST</role-name>
         </auth-constraint>
     </security-constraint>
     <login-config>
         <auth-method>BASIC</auth-method>
-        <realm-name>REST</realm-name>
+        <realm-name>file</realm-name>
     </login-config>
     <security-role>
         <description/>
